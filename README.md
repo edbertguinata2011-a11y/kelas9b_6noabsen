@@ -1,0 +1,1 @@
+# kelas9b_6noabsen
