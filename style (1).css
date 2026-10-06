@@ -1,42 +1,39 @@
 body{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-ul{
+nav.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background: rgb(109, 18, 18);
+    background: maroon;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    display: flex;
+    z-index: 1000;
 }
 
-li{
-    float: left;
+nav.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-li a:hover{
-display: block;
-color: rgb(0, 0, 0);
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-li a :hover{
-    background: rgb(114, 20, 20);
+nav.navbar li a:hover {
+    background: olivedrab;
     color: black;
 }
 
-li a.active{
-    background: rgb(0, 0, 0);
+nav.navbar li a.active {
+    background: #5906;
     color: black;
 }
 
-h1{
-    margin-top: 50px;
+.wadah-utama {
+    margin-top: 60px;
 }
-
