@@ -1,0 +1,84 @@
+body {
+
+     background-image: url('bg-table.jpg');
+
+     background-size: cover;
+
+     background-position: center;
+
+    background-repeat: no-repeat;
+
+     background-attachment: fixed;
+
+    }
+
+    .wadah-utama {
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+     padding: 20px;
+
+     border-radius: 10px;
+
+    margin: 0;
+
+    }
+
+    
+
+     table {
+
+    border-collapse: collapse;
+
+     width: 100%;
+
+     white-space: nowrap;
+
+    }
+
+    
+
+     th,
+
+     td {
+
+     padding: 10px;
+
+     border-bottom: 1px solid #cbd5e1;
+
+    text-align: left;
+
+     }
+
+    
+
+     tr:nth-child(even) {
+
+     background-color: #f1f5f9;
+
+     }
+
+    
+
+     tr:hover {
+
+     background-color: #fef08a;
+
+     }
+
+    
+
+    .th {
+
+     background-color: lime;
+
+    }
+
+    
+
+     h1 {
+
+     padding-top: 1em;
+
+     }
+    
