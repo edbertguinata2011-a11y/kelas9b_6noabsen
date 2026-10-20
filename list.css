@@ -1,0 +1,72 @@
+body {
+    background-image: url('bg-list.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wadah-utama {
+    max-width: 900px;
+    margin: 90px auto 40px auto;
+    padding: 30px;
+    background: rgba(158, 102, 102, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(218, 10, 10, 0.15);
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+.wadah-utama h1 {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.wadah-utama .pembuat {
+    color: grey;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.daftar-sejajar {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: left;
+}
+
+.kolom-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    max-width: 250px;
+}
+
+.kolom-list h3,
+.kolom-list p {
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.kolom-list ol,
+.kolom-list ul {
+    margin: 0;
+    padding-left: 24px;
+    width: 100%;
+}
+
+.kolom-list li {
+    font-size: 1.25rem;
+    padding: 6px 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.kolom-list li:hover {
+    transform: translateX(6px);
+    color: darkolivegreen;
+    font-weight: bold;
+}
